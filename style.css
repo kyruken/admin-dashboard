@@ -31,7 +31,12 @@ ul, li {
 /* ===== Header ===== */
 
 .header {
-    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header-row-1 {
+    grid-row: 1/ 2;
 }
 
 
@@ -42,5 +47,4 @@ ul, li {
 .main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr;
 }
