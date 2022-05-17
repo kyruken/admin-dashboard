@@ -10,12 +10,13 @@ ul, li {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
-
 }
+
 .header {
     grid-column: 2 / span 3;
     grid-row: 1 / 2;
 }
+
 .sidebar {
     grid-column: 1 / 1;
 }
@@ -33,19 +34,6 @@ ul, li {
     border: 1px solid blue;
 }
 
-.row-list {
-    display: flex;
-}
-
-.header-row-1,
-.header-row-2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-row-2 {
-    align-items: center;
-}
 
 /* ===== ^ Header ^ ===== */
 
@@ -53,6 +41,6 @@ ul, li {
 
 .main-container {
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
 }
