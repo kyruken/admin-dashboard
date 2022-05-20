@@ -18,14 +18,15 @@ ul, li, h2 {
 }
 
 .sidebar {
-    grid-column: 1 / 1;
+    grid-column: 1;
+    grid-row: span 2;
 }
 
 .main-container {
     border: 1px solid green;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 40%;
+    grid-template-rows: 60% repeat(auto-fit, minmax(250px, 1fr));
     grid-column: 2 / span 3;
 }
 
@@ -74,23 +75,23 @@ ul, li, h2 {
 /* ===== Sidebar ===== */
 
 .sidebar {
-    display: grid;
     border: 1px solid blue;
-    row-gap: 45px;
+}
+
+.sidebar h2 {
+    grid-area: 1 / 1;
 }
 
 .column-list-1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
-    row-gap: 16px;
 }
 
 .column-list-2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 16px;
 }
 
 /* ===== ^ Sidebar ^ ===== */
