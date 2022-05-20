@@ -73,7 +73,7 @@ ul, li, h2 {
 .sidebar {
     display: grid;
     border: 1px solid blue;
-    row-gap: 32px;
+    row-gap: 45px;
 }
 
 .column-list-1 {
