@@ -42,10 +42,16 @@ ul, li {
 
 }
 
-.row-list {
+.top-row-list {
     display: flex;
     border: 1px solid blue;
     grid-row: 1;
+    grid-column: 3;
+}
+
+.bottom-row-list {
+    display: flex;
+    grid-row: 2;
     grid-column: 3;
 }
 
