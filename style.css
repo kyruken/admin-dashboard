@@ -32,11 +32,21 @@ ul, li {
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .header-row-1 {
-    grid-row: 1/ 2;
+    grid-column: span 2;
+    grid-row: 1;
+
+}
+
+.row-list {
+    display: flex;
+    border: 1px solid blue;
+    grid-row: 1;
+    grid-column: 3;
 }
 
 
