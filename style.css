@@ -23,6 +23,9 @@ ul, li, h2 {
 
 .main-container {
     border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(2, clamp(200px, 50%, 500px));
+    grid-template-rows: 40%;
     grid-column: 2 / span 3;
 }
 
@@ -90,17 +93,13 @@ ul, li, h2 {
     row-gap: 16px;
 }
 
-
-
-
-
-
-
 /* ===== ^ Sidebar ^ ===== */
 
 /* ===== Main ===== */
 
-.main-container {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+.announcements-container {
+    border: 1px solid green;
+}
+.trending-container {
+    grid-column: 2;
 }
