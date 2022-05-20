@@ -32,8 +32,8 @@ ul, li {
 
 .header {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, clamp(50px, 50%, 300px));
+    grid-template-columns: repeat(2, clamp(50px, 50%, 250px));
 }
 
 .header-row-1 {
