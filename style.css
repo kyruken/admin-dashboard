@@ -101,15 +101,25 @@ body {
     border: 1px solid blue;
 }
 
+.sidebar-header {
+    margin-top: 10px;
+    margin-left: 16px;
+}
 .sidebar h2 {
     display: inline-block;
     position: relative;
-    bottom: 2px;
-    margin-left: 4px;
+    bottom: 8px;
+
+    margin-left: 8px;
 }
 
 .sidebar span {
     
+}
+
+.column-list-1, 
+.column-list-2 {
+    margin-left: 24px;
 }
 
 .column-list-1 {
