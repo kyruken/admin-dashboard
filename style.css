@@ -192,8 +192,7 @@ body {
 
 .main-container {
     background-color: #e5e7eb;
-    padding-top: 30px;
-    padding-left: 16px;
+    padding: 30px 16px;
 }
 
 .projects-grid {
