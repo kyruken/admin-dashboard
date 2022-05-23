@@ -192,6 +192,7 @@ body {
 .main-container {
     background-color: #e5e7eb;
     padding-top: 30px;
+    padding-left: 16px;
 }
 
 .projects-grid {
@@ -204,11 +205,21 @@ body {
 
 .project {
     background-color: #fff;
+    border-radius: 15px;
+    border-left: 8px solid #facc15;
     padding-left: 50px;
-    padding-right: 75px;
-    width: 200px;
+    width: 350px;
     height: 200px;
 }
+
+.project-icons {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: end;
+    margin-right: 16px;
+}
+
 .announcements-container {
     border: 1px solid green;
 }
