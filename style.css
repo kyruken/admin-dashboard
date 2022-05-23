@@ -1,6 +1,6 @@
 /* ===== Resets ===== */
 
-ul, li, h2 {
+ul, li, h2, p {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -259,4 +259,17 @@ body {
     padding-right: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
+}
+
+.trend {
+    display: flex;
+    padding: 10px 0;
+    gap: 8px;
+
+}
+
+.trend p {
+    color: rgb(146, 144, 144);
+    font-size: 0.8rem;
+    margin-top: 8px;
 }
