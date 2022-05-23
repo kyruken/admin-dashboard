@@ -219,10 +219,24 @@ body {
     display: flex;
     justify-content: end;
     margin-right: 16px;
+    gap: 8px;
 }
 
-.announcements-container {
-    border: 1px solid green;
+.announcement-grid {
+    background-color: #fff;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.announcement {
+    border-bottom: 2px solid lightgray;
+}
+
+.announcement:last-child {
+    border: 0;
 }
 .trending-container {
     grid-column: 2;
