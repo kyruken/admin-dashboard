@@ -7,7 +7,6 @@ ul, li, h2 {
 }
 
 input, textarea, select, button {
-    width: 150px;
     padding: 0;
     margin: 0;
     border: 0;
@@ -51,6 +50,7 @@ body {
 
 .header {
     display: grid;
+    font-weight: 700;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 1fr;
 }
@@ -73,20 +73,23 @@ body {
 
 .header input[type='text'] {
     background-color: #fce7f3;
-    width: 93%;
+    width: 80%;
     height: 25px;
     padding: 0 10px;
     border-radius: 15px;
     margin-left: 8px;
 }
 
+.top-row-list,
+.bottom-row-list {
+    margin-right: 68px;
+}
+
 .top-row-list {
-    font-weight: 700;
     display: flex;
     grid-row: 1;
     grid-column: 3;
     justify-content: end;
-    margin-right: 68px;
     gap: 36px;
 }
 
@@ -94,6 +97,7 @@ body {
     position: relative;
     top: 5px;
 }
+
 .username-text {
     position: relative;
     top: 8px;
@@ -102,7 +106,8 @@ body {
 
 .header-row-2 {
     display: flex;
-    justify-content: center;
+    margin-left: 40px;
+    gap: 16px;
     align-items: center;
 }
 
@@ -112,9 +117,21 @@ body {
     grid-column: 3;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 
+.profile-name {
+    font-size: 22px;
+}
+
+.bottom-row-list button {
+    background-color: #60a5fa;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 40px;
+    width: 110px;
+    height: 40px;
+}
 
 /* ===== ^ Header ^ ===== */
 
