@@ -146,7 +146,6 @@ body {
     color: #fff;
     display: grid;
     grid-template-rows: 1fr 3fr 2fr 6fr;
-    border: 1px solid blue;
 }
 
 .sidebar-header {
@@ -194,6 +193,10 @@ body {
 
 /* ===== Main ===== */
 
+.grid-container h2 {
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
 .main-container {
     background-color: #e5e7eb;
     padding: 30px 16px;
