@@ -157,11 +157,12 @@ body {
 .sidebar h2 {
     display: inline-block;
     position: relative;
-    bottom: 8px;
     right: 4px;
 }
 
 .sidebar .material-icons {
+    position: relative;
+    top: 8px;
     margin-right: 14px;
 }
 
@@ -174,11 +175,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
-    row-gap: 16px;
+    margin-top: 16px;
 }
 
 .column-list-2 {
-    margin-top: 36px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
