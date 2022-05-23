@@ -63,7 +63,7 @@ body {
 .header-row-1 {
     grid-column: span 2;
     grid-row: 1;
-    padding: 0 16px;
+    padding: 0 40px;
 }
 
 .searchbar .material-icons {
@@ -77,15 +77,26 @@ body {
     height: 25px;
     padding: 0 10px;
     border-radius: 15px;
+    margin-left: 8px;
 }
 
 .top-row-list {
+    font-weight: 700;
     display: flex;
     grid-row: 1;
     grid-column: 3;
     justify-content: end;
-    margin-right: 24px;
-    gap: 64px;
+    margin-right: 68px;
+    gap: 36px;
+}
+
+.top-row-list li:first-child {
+    position: relative;
+    top: 5px;
+}
+.username-text {
+    position: relative;
+    top: 8px;
 }
 
 
