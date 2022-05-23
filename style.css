@@ -240,3 +240,12 @@ body {
 .trending-container {
     grid-column: 2;
 }
+
+.trending-grid {
+    background-color: #fff;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
