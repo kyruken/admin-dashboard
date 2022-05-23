@@ -102,19 +102,23 @@ body {
 }
 
 .sidebar-header {
+    font-size: 18px;
     margin-top: 10px;
     margin-left: 16px;
+}
+
+.sidebar li {
+    font-weight: 700;
 }
 .sidebar h2 {
     display: inline-block;
     position: relative;
     bottom: 8px;
-
-    margin-left: 8px;
+    right: 4px;
 }
 
-.sidebar span {
-    
+.sidebar .material-icons {
+    margin-right: 14px;
 }
 
 .column-list-1, 
@@ -130,6 +134,7 @@ body {
 }
 
 .column-list-2 {
+    margin-top: 36px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
