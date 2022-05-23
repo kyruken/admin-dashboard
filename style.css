@@ -199,7 +199,8 @@ body {
 }
 .main-container {
     background-color: #e5e7eb;
-    padding: 30px 16px;
+    box-shadow: inset 1px 1px 10px rgb(165, 165, 166);
+    padding: 40px 16px;
 }
 
 .projects-container {
